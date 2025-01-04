@@ -10,7 +10,7 @@ python predict.py --model_path [model path] --test_dataset_path [dataset path] -
 ```
 Note: There should be two folders under the dataset path named A and B, which store the corresponding image pairs 1.jpg, 2.jpg...
 
-## Make training dataset
+## Creating training data
 ```
 python tools/make_datasets_DUTS.py --mode TR --data_root [data_root] --out_dir_name [DUTS_MFF_NEW_256] #Create training set
 python tools/make_datasets_DUTS.py --mode TE --data_root [data_root] --out_dir_name [DUTS_MFF_NEW_256] #Create validation set
