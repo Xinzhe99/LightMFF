@@ -16,3 +16,6 @@ python tools/make_datasets_DUTS.py --mode TR --data_root [data_root] --out_dir_n
 python tools/make_datasets_DUTS.py --mode TE --data_root [data_root] --out_dir_name [DUTS_MFF_NEW_256] #Create validation set
 ```
 Note: You should download DUTS dataset fisrt. There should be three folders under [data_root], namely DUTS-OURS, DUTS-TR, DUTS-TE.
+
+## Train
+Note: If you want to train LightMFF yourself, please comment out all the codes in the original training script that visualize the fusion results during the training process. Because the original code will save the fusion results of Lytro, MFI-WHU, and MFFW during the training process, you need to prepare these data or comment out all related codes.
