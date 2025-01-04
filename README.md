@@ -9,3 +9,10 @@ https://pan.baidu.com/s/1mTouAcH-cGMr6VgDCqcWaw?pwd=cite
 python predict.py --model_path [model path] --test_dataset_path [dataset path] --GPU_parallelism [True/False]
 ```
 Note: There should be two folders under the dataset path named A and B, which store the corresponding image pairs 1.jpg, 2.jpg...
+
+## Make training dataset
+```
+python tools/make_datasets_DUTS.py --mode TR --data_root [data_root] --out_dir_name [DUTS_MFF_NEW_256] #Create training set
+python tools/make_datasets_DUTS.py --mode TE --data_root [data_root] --out_dir_name [DUTS_MFF_NEW_256] #Create validation set
+```
+Note: You should download DUTS dataset fisrt. There should be three folders under [data_root], namely DUTS-OURS, DUTS-TR, DUTS-TE.
