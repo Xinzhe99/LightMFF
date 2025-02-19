@@ -62,8 +62,8 @@ Note: You should download the DUTS dataset first. There should be three folders 
 ### Quantitative Results on Lytro Dataset
 
 | Method | Q<sup>AB/F</sup>↑ | Q<sub>MI</sub>↑ | Q<sup>P</sup>↑ | Q<sub>W</sub>↑ | Q<sub>E</sub>↑ | Q<sub>CB</sub>↑ |
-|--------|-------------------|------------------|-----------------|-----------------|-----------------|------------------|
-| **Methods based on image transform domain** |
+|:------:|:----------------:|:----------------:|:---------------:|:---------------:|:---------------:|:----------------:|
+| <td colspan="6">**Methods based on image transform domain**</td> |
 | DWT | 0.6850 | 0.8677 | 0.2878 | 0.8977 | 0.8356 | 0.6117 |
 | DTCWT | 0.6929 | 0.8992 | 0.2925 | 0.8987 | 0.8408 | 0.6234 |
 | NSCT | 0.6901 | 0.9039 | 0.2928 | 0.9030 | 0.8413 | 0.6174 |
@@ -75,7 +75,7 @@ Note: You should download the DUTS dataset first. There should be three folders 
 | MWGF | 0.7037 | 1.0545 | 0.3176 | 0.8913 | 0.8107 | 0.6758 |
 | ICA | 0.6766 | 0.8687 | 0.2964 | 0.9084 | 0.8219 | 0.5956 |
 | NSCT-SR | 0.6995 | 1.0189 | 0.2949 | 0.9000 | 0.8385 | 0.6501 |
-| **Methods based on image spatial domain** |
+| <td colspan="6">**Methods based on image spatial domain**</td> |
 | SSSDI | 0.6966 | 1.0351 | 0.2915 | 0.8961 | 0.8279 | 0.6558 |
 | QUADTREE | 0.7027 | 1.0630 | 0.2940 | 0.8962 | 0.8265 | 0.6681 |
 | DSIFT | 0.7046 | 1.0642 | 0.2954 | 0.8977 | 0.8354 | 0.6675 |
@@ -84,7 +84,7 @@ Note: You should download the DUTS dataset first. There should be three folders 
 | BRW | 0.7040 | 1.0516 | 0.2964 | 0.8984 | 0.8371 | 0.6650 |
 | MISF | 0.6984 | 1.0391 | 0.2945 | 0.8929 | 0.8063 | 0.6607 |
 | MDLSR_RFM | 0.7518 | 1.1233 | 0.8294 | 0.9394 | 0.9021 | *0.8064* |
-| **End-to-end methods based on deep learning** |
+| <td colspan="6">**End-to-end methods based on deep learning**</td> |
 | IFCNN-MAX | 0.6784 | 0.8863 | 0.2962 | 0.9013 | 0.8324 | 0.5986 |
 | U2Fusion | 0.6190 | 0.7803 | 0.2994 | 0.8909 | 0.7108 | 0.5159 |
 | SDNet | 0.6441 | 0.8464 | 0.3072 | 0.8934 | 0.7464 | 0.5739 |
@@ -94,7 +94,7 @@ Note: You should download the DUTS dataset first. There should be three folders 
 | FusionDiff | 0.6744 | 0.8692 | 0.2900 | 0.8980 | 0.8261 | 0.5747 |
 | SwinMFF | 0.7321 | 0.9605 | 0.8222 | 0.9390 | 0.8986 | 0.7543 |
 | DDBFusion | 0.5026 | 0.8152 | 0.5610 | 0.8391 | 0.4947 | 0.6057 |
-| **Decision map-based methods using deep learning** |
+| <td colspan="6">**Decision map-based methods using deep learning**</td> |
 | CNN | 0.7019 | 1.0424 | 0.2968 | 0.8976 | 0.8311 | 0.6628 |
 | ECNN | 0.7030 | 1.0723 | 0.2945 | 0.8946 | 0.8169 | 0.6698 |
 | DRPL | 0.7574 | 1.1405 | 0.8435 | 0.9397 | *0.9060* | 0.8035 |
@@ -108,8 +108,8 @@ Note: You should download the DUTS dataset first. There should be three folders 
 ### Computational Efficiency Comparison
 
 | Method | Model Size (M) | FLOPs (G) | Time (s) | Device |
-|--------|---------------|------------|-----------|---------|
-| **End-to-end methods based on deep learning** |
+|:------:|:-------------:|:----------:|:---------:|:-------:|
+| <td colspan="4">**End-to-end methods based on deep learning**</td> |
 | IFCNN-MAX | 0.08 | 8.54 | 0.09 | GPU |
 | U2Fusion | 0.66 | 86.40 | 0.16 | CPU |
 | SDNet | 0.07 | 8.81 | 0.10 | CPU |
@@ -119,7 +119,7 @@ Note: You should download the DUTS dataset first. There should be three folders 
 | FusionDiff | 26.90 | 58.13 | 81.47 | GPU |
 | SwinMFF | 41.25 | 22.38 | 0.46 | GPU |
 | DDBFusion | 10.92 | 184.93 | 1.69 | GPU |
-| **Decision map-based methods using deep learning** |
+| <td colspan="4">**Decision map-based methods using deep learning**</td> |
 | CNN | 8.76 | 142.23 | 0.06 | GPU |
 | ECNN | 1.59 | 14.93 | 125.53 | GPU |
 | DRPL | 1.07 | 140.49 | 0.22 | GPU |
