@@ -56,7 +56,7 @@ Note: You should download the DUTS dataset first. There should be three folders 
 ## 📊 Results
 
 <div align="center">
-    <img src="assets/results.png" width="800"/>
+    <img src="assets/result.png" width="800"/>
 </div>
 
 ## ⚠️ Training Notes
