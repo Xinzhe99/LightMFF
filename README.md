@@ -596,7 +596,7 @@ If our work is helpful to you, please cite the following paper:
   title={LightMFF: A Real-time Ultra-lightweight Multi-focus Image Fusion Network Based on Focus Property and Edge Detection},
   author={Anonymous},
   journal={Under Review},
-  year={2024}
+  year={2025}
 }
 ```
 
