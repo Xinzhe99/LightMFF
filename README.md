@@ -109,7 +109,7 @@ Note: You should download the DUTS dataset first. There should be three folders 
 
 | Method | Model Size (M) | FLOPs (G) | Time (s) | Device |
 |--------|---------------|------------|-----------|---------|
-| **End-to-end methods based on deep learning** |||||
+| End-to-end methods based on deep learning | | | | |
 | IFCNN-MAX | 0.08 | 8.54 | 0.09 | GPU |
 | U2Fusion | 0.66 | 86.40 | 0.16 | CPU |
 | SDNet | 0.07 | 8.81 | 0.10 | CPU |
@@ -119,7 +119,7 @@ Note: You should download the DUTS dataset first. There should be three folders 
 | FusionDiff | 26.90 | 58.13 | 81.47 | GPU |
 | SwinMFF | 41.25 | 22.38 | 0.46 | GPU |
 | DDBFusion | 10.92 | 184.93 | 1.69 | GPU |
-| **Decision map-based methods using deep learning** |||||
+| Decision map-based methods using deep learning | | | | |
 | CNN | 8.76 | 142.23 | 0.06 | GPU |
 | ECNN | 1.59 | 14.93 | 125.53 | GPU |
 | DRPL | 1.07 | 140.49 | 0.22 | GPU |
