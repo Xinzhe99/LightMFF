@@ -107,29 +107,158 @@ Note: You should download the DUTS dataset first. There should be three folders 
 
 ### Computational Efficiency Comparison
 
-| Method | Model Size (M) | FLOPs (G) | Time (s) | Device |
-|--------|---------------|------------|-----------|---------|
-| End-to-end methods based on deep learning | | | | |
-| IFCNN-MAX | 0.08 | 8.54 | 0.09 | GPU |
-| U2Fusion | 0.66 | 86.40 | 0.16 | CPU |
-| SDNet | 0.07 | 8.81 | 0.10 | CPU |
-| MFF-GAN | 0.05 | 3.08 | 0.06 | CPU |
-| SwinFusion | 0.93 | 63.73 | 1.79 | GPU |
-| MUFusion | 2.16 | 24.07 | 0.72 | GPU |
-| FusionDiff | 26.90 | 58.13 | 81.47 | GPU |
-| SwinMFF | 41.25 | 22.38 | 0.46 | GPU |
-| DDBFusion | 10.92 | 184.93 | 1.69 | GPU |
-| Decision map-based methods using deep learning | | | | |
-| CNN | 8.76 | 142.23 | 0.06 | GPU |
-| ECNN | 1.59 | 14.93 | 125.53 | GPU |
-| DRPL | 1.07 | 140.49 | 0.22 | GPU |
-| SESF | 0.07 | 4.90 | 0.26 | GPU |
-| MFIF-GAN | 3.82 | 693.03 | 0.32 | GPU |
-| MSFIN | 4.59 | 26.76 | 1.10 | GPU |
-| GACN | 0.07 | 10.89 | 0.16 | GPU |
-| ZMFF | 6.33 | 464.53 | 165.38 | GPU |
-| **LightMFF** | **0.02** | **0.06** | **0.02** | GPU |
-| Reduction (%) | 60.00 | 98.05 | 66.67 | - |
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>Model Size (M)</th>
+<th>FLOPs (G)</th>
+<th>Time (s)</th>
+<th>Device</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="5" align="center"><b>End-to-end methods based on deep learning</b></td>
+</tr>
+<tr>
+<td>IFCNN-MAX</td>
+<td>0.08</td>
+<td>8.54</td>
+<td>0.09</td>
+<td>GPU</td>
+</tr>
+<tr>
+<td>U2Fusion</td>
+<td>0.66</td>
+<td>86.40</td>
+<td>0.16</td>
+<td>CPU</td>
+</tr>
+<tr>
+<td>SDNet</td>
+<td>0.07</td>
+<td>8.81</td>
+<td>0.10</td>
+<td>CPU</td>
+</tr>
+<tr>
+<td>MFF-GAN</td>
+<td>0.05</td>
+<td>3.08</td>
+<td>0.06</td>
+<td>CPU</td>
+</tr>
+<tr>
+<td>SwinFusion</td>
+<td>0.93</td>
+<td>63.73</td>
+<td>1.79</td>
+<td>GPU</td>
+</tr>
+<tr>
+<td>MUFusion</td>
+<td>2.16</td>
+<td>24.07</td>
+<td>0.72</td>
+<td>GPU</td>
+</tr>
+<tr>
+<td>FusionDiff</td>
+<td>26.90</td>
+<td>58.13</td>
+<td>81.47</td>
+<td>GPU</td>
+</tr>
+<tr>
+<td>SwinMFF</td>
+<td>41.25</td>
+<td>22.38</td>
+<td>0.46</td>
+<td>GPU</td>
+</tr>
+<tr>
+<td>DDBFusion</td>
+<td>10.92</td>
+<td>184.93</td>
+<td>1.69</td>
+<td>GPU</td>
+</tr>
+<tr>
+<td colspan="5" align="center"><b>Decision map-based methods using deep learning</b></td>
+</tr>
+<tr>
+<td>CNN</td>
+<td>8.76</td>
+<td>142.23</td>
+<td>0.06</td>
+<td>GPU</td>
+</tr>
+<tr>
+<td>ECNN</td>
+<td>1.59</td>
+<td>14.93</td>
+<td>125.53</td>
+<td>GPU</td>
+</tr>
+<tr>
+<td>DRPL</td>
+<td>1.07</td>
+<td>140.49</td>
+<td>0.22</td>
+<td>GPU</td>
+</tr>
+<tr>
+<td>SESF</td>
+<td>0.07</td>
+<td>4.90</td>
+<td>0.26</td>
+<td>GPU</td>
+</tr>
+<tr>
+<td>MFIF-GAN</td>
+<td>3.82</td>
+<td>693.03</td>
+<td>0.32</td>
+<td>GPU</td>
+</tr>
+<tr>
+<td>MSFIN</td>
+<td>4.59</td>
+<td>26.76</td>
+<td>1.10</td>
+<td>GPU</td>
+</tr>
+<tr>
+<td>GACN</td>
+<td>0.07</td>
+<td>10.89</td>
+<td>0.16</td>
+<td>GPU</td>
+</tr>
+<tr>
+<td>ZMFF</td>
+<td>6.33</td>
+<td>464.53</td>
+<td>165.38</td>
+<td>GPU</td>
+</tr>
+<tr>
+<td><b>LightMFF</b></td>
+<td><b>0.02</b></td>
+<td><b>0.06</b></td>
+<td><b>0.02</b></td>
+<td>GPU</td>
+</tr>
+<tr>
+<td>Reduction (%)</td>
+<td>60.00</td>
+<td>98.05</td>
+<td>66.67</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
 
 ## ⚠️ Training Notes
 
