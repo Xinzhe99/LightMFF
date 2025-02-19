@@ -61,6 +61,7 @@ Note: You should download the DUTS dataset first. There should be three folders 
 
 ### Quantitative Results on Lytro Dataset
 
+<div align="center">
 <table>
 <thead>
 <tr>
@@ -421,9 +422,11 @@ Note: You should download the DUTS dataset first. There should be three folders 
 </tr>
 </tbody>
 </table>
+</div>
 
 ### Computational Efficiency Comparison
 
+<div align="center">
 <table>
 <thead>
 <tr>
@@ -576,6 +579,7 @@ Note: You should download the DUTS dataset first. There should be three folders 
 </tr>
 </tbody>
 </table>
+</div>
 
 ## ⚠️ Training Notes
 
