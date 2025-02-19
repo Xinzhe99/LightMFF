@@ -5,6 +5,8 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![stars](https://img.shields.io/github/stars/Xinzhe99/LightMFF?style=social)](https://github.com/Xinzhe99/LightMFF)
 
+> 🔔 **Note**: Our paper is currently under review. The complete paper and citation information will be available upon acceptance.
+
 <div align="center">
     <img src="assets/framework.png" width="800"/>
 </div>
@@ -69,13 +71,11 @@ If you want to train LightMFF yourself, please note:
 If our work is helpful to you, please cite the following paper:
 
 ```bibtex
-@article{xie2024swinmff,
-  title={SwinMFF: toward high-fidelity end-to-end multi-focus image fusion via swin transformer-based network},
-  author={Xie, Xinzhe and Guo, Buyu and Li, Peiliang and He, Shuangyan and Zhou, Sangjun},
-  journal={The Visual Computer},
-  pages={1--24},
-  year={2024},
-  publisher={Springer}
+@article{anonymous2024lightmff,
+  title={LightMFF: A Real-time Ultra-lightweight Multi-focus Image Fusion Network Based on Focus Property and Edge Detection},
+  author={Anonymous},
+  journal={Under Review},
+  year={2024}
 }
 ```
 
@@ -90,5 +90,5 @@ Issues and contributions are welcome! Feel free to submit issues or pull request
 ## 📧 Contact
 
 If you have any questions, please feel free to contact us through:
-- Email: [guobuyuwork@163.com](mailto:guobuyuwork@163.com)
+- Email: [anonymous@example.com](mailto:anonymous@example.com)
 - GitHub Issues
