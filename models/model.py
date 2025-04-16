@@ -196,8 +196,8 @@ class UltraLight_UNet(nn.Module):
                 m.bias.data.zero_()
 
     def forward(self, x1, x2):
-        # dmap_ini1=self.cal_pixel_sf(x1,x2)
-        # dmap_ini2=torch.ones_like(dmap_ini1)-dmap_ini1
+        dmap_ini1=self.cal_pixel_sf(x1,x2)
+        dmap_ini2=torch.ones_like(dmap_ini1)-dmap_ini1
         edge_maps1,edge_maps2=self.cal_edge_maps(x1,x2)
         #
         x = torch.cat((x1, x2,dmap_ini1,dmap_ini2,edge_maps1,edge_maps2), dim=1)
