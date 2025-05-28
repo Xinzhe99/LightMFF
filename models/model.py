@@ -124,7 +124,7 @@ class UltraLight_UNet(nn.Module):
         self.bridge = bridge
 
         self.encoder1 = nn.Sequential(
-            nn.Conv2d(input_channels * 2+2, c_list[0], 3, stride=1, padding=1)
+            nn.Conv2d(input_channels * 2+4, c_list[0], 3, stride=1, padding=1)
         )
         # self.encoder1 = nn.Sequential(
         #     nn.Conv2d(input_channels * 2 + 4, c_list[0], 3, stride=1, padding=1)
@@ -201,6 +201,9 @@ class UltraLight_UNet(nn.Module):
         edge_maps1,edge_maps2=self.cal_edge_maps(x1,x2)
         #
         x = torch.cat((x1, x2,dmap_ini1,dmap_ini2,edge_maps1,edge_maps2), dim=1)
+
+        # x = torch.cat((x1, x2),dim=1)#都不加
+        # x = torch.cat((x1, x2,edge_maps1,edge_maps2), dim=1)  # 加DM
 
         out = F.gelu(F.max_pool2d(self.ebn1(self.encoder1(x)), 2, 2))
         t1 = out
