@@ -589,16 +589,7 @@ If you want to train LightMFF yourself, please note:
 
 ## 📚 Citation
 
-If our work is helpful to you, please cite the following paper:
-
-```bibtex
-@article{anonymous2024lightmff,
-  title={LightMFF: A Real-time Ultra-lightweight Multi-focus Image Fusion Network Based on Focus Property and Edge Detection},
-  author={Anonymous},
-  journal={Under Review},
-  year={2025}
-}
-```
+If our work is helpful to you, please cite our paper.
 
 ## 📄 License
 
@@ -607,9 +598,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## 🤝 Contributing
 
 Issues and contributions are welcome! Feel free to submit issues or pull requests.
-
-## 📧 Contact
-
-If you have any questions, please feel free to contact us through:
-- Email: [anonymous@example.com](mailto:anonymous@example.com)
-- GitHub Issues
