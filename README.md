@@ -12,7 +12,7 @@
 
 ## 📝 Introduction
 
-This is the official implementation of the paper "LightMFF: A Real-time Ultra-lightweight Multi-focus Image Fusion Network Based on Focus Property and Edge Detection". LightMFF is an ultra-lightweight multi-focus image fusion network with the following features:
+This is the official implementation of the paper "LightMFF: A Simple and Efficient Ultra-lightweight Multi-focus Image Fusion Network". LightMFF is an ultra-lightweight multi-focus image fusion network with the following features:
 
 - 🚄 **Real-time Performance**: Only 0.02 seconds processing time per image pair
 - 🎯 **Ultra-lightweight**: Only 0.02M parameters and 0.06G FLOPs
