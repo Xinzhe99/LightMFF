@@ -4,7 +4,7 @@
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![stars](https://img.shields.io/github/stars/Xinzhe99/LightMFF?style=social)](https://github.com/Xinzhe99/LightMFF)
 
-> 🔔 **Note**: Our paper is accepted by Applied Sciences.
+> 🔔 **Note**: Our paper is accepted by Applied Sciences.  [Website link.](https://www.mdpi.com/2076-3417/15/13/7500)
 
 <div align="center">
     <img src="assets/framework.png" width="800"/>
