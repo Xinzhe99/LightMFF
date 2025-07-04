@@ -27,9 +27,14 @@ cd LightMFF
 pip install -r requirements.txt
 ```
 
-## 📥 Pre-trained Model
+## 📥 Pre-trained Model and rusults
 
 Download the pre-trained model from:
+```bash
+https://pan.baidu.com/s/1mTouAcH-cGMr6VgDCqcWaw?pwd=cite
+```
+
+Download the rusults of Lytro, MFFW, MFI-WHU datasets.
 ```bash
 https://pan.baidu.com/s/1mTouAcH-cGMr6VgDCqcWaw?pwd=cite
 ```
