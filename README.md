@@ -593,9 +593,45 @@ If you want to train LightMFF yourself, please note:
 - You need to prepare these datasets or comment out all related codes
 
 ## 📚 Citation
+If you use this code or ideas in your research, please cite our paper.
+@article{xie2025stackmff,
+  title={StackMFF: end-to-end multi-focus image stack fusion network},
+  author={Xie, Xinzhe and Qingyan, Jiang and Chen, Dong and Guo, Buyu and Li, Peiliang and Zhou, Sangjun},
+  journal={Applied Intelligence},
+  volume={55},
+  number={6},
+  pages={503},
+  year={2025},
+  publisher={Springer}
+}
 
-If our work is helpful to you, please cite our paper.
+@article{xie2025multi,
+  title={Multi-focus image fusion with visual state space model and dual adversarial learning},
+  author={Xie, Xinzhe and Guo, Buyu and Li, Peiliang and He, Shuangyan and Zhou, Sangjun},
+  journal={Computers and Electrical Engineering},
+  volume={123},
+  pages={110238},
+  year={2025},
+  publisher={Elsevier}
+}
 
+@article{xie2024swinmff,
+  title={SwinMFF: toward high-fidelity end-to-end multi-focus image fusion via swin transformer-based network},
+  author={Xie, Xinzhe and Guo, Buyu and Li, Peiliang and He, Shuangyan and Zhou, Sangjun},
+  journal={The Visual Computer},
+  pages={1--24},
+  year={2024},
+  publisher={Springer}
+}
+
+@inproceedings{xie2024underwater,
+  title={Underwater Three-Dimensional Microscope for Marine Benthic Organism Monitoring},
+  author={Xie, Xinzhe and Guo, Buyu and Li, Peiliang and Jiang, Qingyan},
+  booktitle={OCEANS 2024-Singapore},
+  pages={1--4},
+  year={2024},
+  organization={IEEE}
+}
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
