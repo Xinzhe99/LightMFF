@@ -592,8 +592,20 @@ If you want to train LightMFF yourself, please note:
 - The original code will save fusion results of Lytro, MFI-WHU, and MFFW during the training process
 - You need to prepare these datasets or comment out all related codes
 
-## 📚 Citation
+## 📝 Citation
 If you use this code or ideas in your research, please cite our paper.
+
+```bibtex
+@article{xie2025lightmff,
+  title={LightMFF: A Simple and Efficient Ultra-Lightweight Multi-Focus Image Fusion Network},
+  author={Xie, Xinzhe and Lin, Zijian and Guo, Buyu and He, Shuangyan and Gu, Yanzhen and Bai, Yefei and Li, Peiliang},
+  journal={Applied Sciences},
+  volume={15},
+  number={13},
+  pages={7500},
+  year={2025},
+  publisher={MDPI}
+}
 @article{xie2025stackmff,
   title={StackMFF: end-to-end multi-focus image stack fusion network},
   author={Xie, Xinzhe and Qingyan, Jiang and Chen, Dong and Guo, Buyu and Li, Peiliang and Zhou, Sangjun},
@@ -632,6 +644,7 @@ If you use this code or ideas in your research, please cite our paper.
   year={2024},
   organization={IEEE}
 }
+```
 ## 📄 License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
